@@ -1,4 +1,10 @@
 function countOfAllNumbersSmallerThanTarget(nums, target) {
+  let hold = 0
+  for (let i = 0;  i<nums.length; i++) {
+    if (nums[i] < target)
+      hold++
+  }
+  return hold
   // Insert code here;
 }
 
